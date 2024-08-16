@@ -1,0 +1,148 @@
+.container-3{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    .row3{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .account-detail{
+        width: 23%;
+        box-shadow: 0 0 4px #00000018;
+    .account{    
+      display: flex; 
+      background-color:#fff;
+      // box-shadow: 0 0 1px #000;
+      .acc-img{
+      width: 20%;
+     
+      img{
+        width: 100%;
+        
+      }
+      }
+      .acc-name{
+        padding: 5px 0 ;
+        line-height: 1.5;
+      }
+    }
+    .order{
+      margin-top: 10px;
+          background-color:#fff;
+          // box-shadow: 0 0 1px #000;
+          .odd{
+            display: flex;
+            align-items: center;
+            padding: 15px 10px;
+           border-bottom:1px solid rgba(128, 128, 128, 0.219) ;
+            .odd-icon{
+              color: blue;
+              margin-right: 10px;
+              font-size: 20px;
+            }
+            p{
+              color: rgba(128, 128, 128, 0.562);
+              font-size: 16px;
+              font-weight: 500;
+            }
+          }
+          .odd1{
+            display: flex;
+            align-items: center;
+            padding: 10px 10px;
+          //  border-bottom:1px solid red ;
+            .odd-icon{
+              color: blue;
+              margin-right: 10px;
+              font-size: 20px;
+            }
+            p{
+              color: rgba(128, 128, 128, 0.562);
+              font-size: 16px;
+              font-weight: 500;
+            }
+          }
+          .odds{
+            line-height: 2.2;
+            font-size: 17px;
+            padding: 10px 40px;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+            p{
+              font-size: 14px;
+            }
+          }
+         
+        }
+      
+    }
+    .fav{
+      width: 75%;
+      box-shadow: 0 0 4px #00000018;
+     background-color:#fff;
+      h3{
+        font-size: 15px;
+        padding: 18px 20px;
+        border-bottom: 1px solid rgba(163, 162, 162, 0.295);
+      }
+    }
+    .wishlist{
+      display: flex;
+      justify-content: space-between;
+      .fav-list{
+        display: flex;
+      .fav-img{
+          width: 20%;
+          padding-top: 20px;
+          img{
+              width: 100%;
+              height: 100%;
+          }
+      }
+      
+      .fav-detail{
+        padding: 25px;
+        .star{
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+             p{
+              margin:0 5px 0 0;
+              color: gray;
+              font-size: 14px
+            }
+            .rate {
+              padding: 0px 2px;
+              background-color: green;
+              color: #fff;
+              font-weight: 600;
+              font-size: 14px;
+              border-radius: 5px;
+              display: flex;
+              align-items: center;
+            }
+            img{
+                width: 20%;
+            }
+          }
+        .amount{
+            display: flex;
+            align-items: center;
+            h2{
+                display: flex;
+                align-items: center;
+            }
+          p{
+            font-size: 15px;
+            padding: 0 10px 0 10px;
+          }
+        }
+      }
+    }
+    .dlt-icon{
+      padding: 25px;
+      color: #80808070;
+      cursor: pointer;
+    }
+    }
+  }
